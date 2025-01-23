@@ -1,0 +1,15 @@
+import React from "react";
+import Posts from "./Posts";
+import CreatePost from "./CreatePost";
+
+const App = () => {
+  return (
+    <div>
+      <h1 style={{ textAlign: "center" }}>Instagram Clone</h1>
+      <CreatePost />
+      <Posts />
+    </div>
+  );
+};
+
+export default App;
